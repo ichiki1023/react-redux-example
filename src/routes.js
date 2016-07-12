@@ -1,10 +1,9 @@
 import React from 'react';
 import {IndexRoute, Route} from 'react-router';
-import {
-    App,
-    NotFound,
-    Home
-  } from 'components';
+
+import App from './components/App/App';
+import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 export default () => {
   /**
